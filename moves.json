@@ -1,0 +1,101 @@
+{
+  "Name": "Moves",
+  "Moves": [
+    {
+      "Name": "WIELD THE DARKNESS",
+      "Source": {
+        "Name": "Ironsmith: Corruption and the Darkness Within",
+        "Date": "110821"
+      },
+      "Category": "The Darkness Within - moves",
+      "Triggers": [
+        {
+          "Text": "When you summon the darkness within you and leverage it to make minor alterations to an aspect the dark power controls, choose one option below. Then envision how your character uses the power to:"
+        }
+      ],
+      "Text": "When you **summon the darkness within you and leverage it to make minor alterations to an aspect** the dark power controls, choose one option below. Then envision how your character uses the power to: \n\n   * **Act**: You may Compel, Face Danger, Gather Information, Secure an Advantage, Strike or Clash +darkness instead of the normal stat. If your action die shows a 1 on that move, mark darkness. \n\n   * **Interrupt**: After rolling for a move but before resolving the outcome, choose one: \n\n   * Mark darkness to change a weak hit to a strong hit. \n\n   * Mark darkness twice to change a miss to a weak hit. \n\n   * **Empower**: You may Endure Harm or Face Death +darkness instead of the normal stat. If your action die shows a 1 on that move, mark darkness."
+    },
+    {
+      "Name": "RESIST THE DARKNESS",
+      "Source": {
+        "Name": "Ironsmith: Corruption and the Darkness Within",
+        "Date": "110821"
+      },
+      "Category": "The Darkness Within - moves",
+      "Text": "When you **encounter a manifestation of the darkness within you and try to resist its pull**, roll + heart and change any challenge die below your darkness level to your darkness level.  \n\n  On a **strong hit**, you stave off the darkness and affirm your control over it. Take +1 momentum.  \n\n  On a **weak hit**, you stave off the darkness for now but feel its grip on you. You press on.  \n\n  On a **miss**, the darkness nearly overwhelms you. Mark darkness, and choose one: \n\n   * Wield the Darkness to Act (not Interrupt or Empower) and add +1.  \n\n   * Indulge the Darkness: You act against your better nature to your detriment.  \n\n    * Pay the Price   \n\n   You may not Wield the Darkness to Interrupt this move."
+    },
+    {
+      "Name": "CLEANSE THE DARKNESS",
+      "Source": {
+        "Name": "Ironsmith: Corruption and the Darkness Within",
+        "Date": "110821"
+      },
+      "Category": "The Darkness Within - moves",
+      "Text": "When you **take significant time to perform an activity that fights the darkness within you**, roll +heart and change any challenge die result that is below your darkness level to your darkness level. You may not Cleanse the Darkness if you are Shaken.  \n\n     On a **strong hit**, the darkness retreats. Lower your darkness and choose one:  \n\n     * Lower your darkness again. * Take +1 momentum. \n\n    On a **weak hit**, the darkness loosens its grip. Lower your darkness once.  \n\n    On a **miss**, the darkness clings to you. Mark Shaken.  \n\n    You may not Wield the Darkness to Interrupt this move."
+    },
+    {
+      "Name": "SUCCUMB TO DARKNESS",
+      "Source": {
+        "Name": "Ironsmith: Corruption and the Darkness Within",
+        "Date": "110821"
+      },
+      "Category": "The Darkness Within - moves",
+      "Text": "When you **fill your Darkness Track**, roll + heart and change any challenge die below a value of 5 to 5.  \n\n    On a **strong hit**, you find the willpower to press back the darkness if only for a moment. Set your darkness level to +5 and press on.  \n\n    On a **weak hit**, choose one:  \n\n     * The darkness overwhelms you, but not before you wield it one more time to enact a significant change or revenge on the source of your darkness. Envision your final moments. * You catch a fleeting vision of what the darkness within you fears and see a path to redemption and freedom. Envision how the darkness may be cast-off and Swear an Iron Vow to purify and free yourself of this darkness. If you fail to score a hit when you Swear an Iron Vow or refuse the quest, you are lost. Otherwise, you gain tenuous control over the darkness and set your darkness level to +5. When you Fulfill Your Vow to free yourself, you lose the Darkness Within asset and take +3 Experience.   \n\n    \t   \n\n    On a **miss**, your body, mind, and soul are consumed by the darkness. Choose one: * A remnant of you haunts the Ironlands and is set towards an ill purpose by the dark power that lived within you. Envision how your remnant furthers the cause of darkness in the Ironlands. * You were not a strong enough vessel to hold the darkness in. Envision how this dark power now moves on to corrupt another who you care about.  \n\n    You may not Wield the Darkness to Interrupt this move."
+    },
+    {
+      "Name": "Cast a Spell",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When you **channel the flow of Chaos to Manipulate an Essence**,\nenvision how the spell takes effect to:\n\n\n- **Act**: You may make *Face Danger, Secure an Advantage, Strike, Clash, Gather Information, Compel, Heal, Resupply, Enter the Fray, and Aid Your Ally* moves as narratively appropriate to the spell magnitude by rolling +spell power or +chaos (whichever is higher). If the Action Die shows 1, Mark Chaos. If you chose tocast with +chaos, Mark Chaos equal to the Spell Magnitude, instead.\n\n\n- **Intervene**: After rolling for a move but before resolving the outcome, you may choose one:\n\n\n\t- Mark Chaos to change a Weak Hit to a Strong Hit  \n\n\n\t- Mark Chaos twice to change a Miss to a Weak Hit  \n\n"
+    },
+    {
+      "Name": "Secure Resources",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When **you *Fulfill a Vow***, for each experience point gained, roll 1d10. Consult the chart below, and envision what you have found: \n\n\n\n\n\n| 1d10 | Resources | \n\n\n| :-:|:-:| \n\n\n| 1-3 | No Resources | \n\n\n| 4-8 | +1 Resource | \n\n\n| 9-10 | +2 Resources | \n\n "
+    },
+    {
+      "Name": "Harness Chaos",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When you **Face Death or Face Desolation**, you may roll +chaos instead of the normal stat. Your bending of fate and reality has allowed you to potentially step outside of their influence. If your Action Die shows a 1 on that move, mark Chaos.\n"
+    },
+    {
+      "Name": "Scribe Tome",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When you work in the Library Facility at your Arcanum to study a particular Manipulation or Essence, perform experiments, and write out your findings, roll +wits. \n\n\n\n\n\nOn a **strong hit**, you produce a Tome about that specific Art. List it as being in your Library. \n\n\n\n\n\nOn a **weak hit**, you are close to a break through, but it will take much more time. After you next Fulfill Your Vow, you may attempt to Scribe again for the same Art and add +1. \n\n\n\n\n\nOn a **miss**, something goes horribly awry. Envision how your Arcanum suffers damage or is now in danger. Alternately, Ask the Oracle for what goes wrong. \n\n\n"
+    },
+    {
+      "Name": "Ground Yourself",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When **you spend time in the presence of your bonded Attendants in rest and fellowship**, roll +heart, and for any challenge die result below your Chaos level, change it to your Chaos level. You may not Cast a Spell to affect the results of this move.\n\n\n\n\n\nOn a **strong hit**, you reconnect with your essential humanity. Reduce Chaos and choose one:\n\n\n- Reduce Chaos again.\n\n\n- Take +1 momentum.\n\n\n\n\n\nOn a **weak hit**, you feel as though you remember your place in this world. Reduce Chaos. If your Attendants are unquartered (i.e. your Arcanum lacks the ‘Quarters’ asset), something has happened with which they need help. Swear an Iron Vow to assist them with this task. Should you refuse the vow or forsake it, the problem takes a dramatic turn for the worse. Envision this tragic outcome.\n\n\n\n\n\nOn a **miss**, you take no comfort in the company of others, remembering that you are forever shut out of human society. Mark Shaken. If your Attendants are unquartered (i.e. your Arcanum lacks the ‘Quarters’ asset), something has happened with which they need help. Swear an Iron Vow to assist them with this task. Should you refuse the vow or forsake it, the problem takes a dramatic turn for the worse. Envision this tragic outcome.\n\n\n\n\n"
+    },
+    {
+      "Name": "Withstand Chaos",
+      "Source": {
+        "Name": "Arcanum",
+        "Date": "101221"
+      },
+      "Category": "Arcanum - moves",
+      "Text": "When **you must Mark Chaos and cannot**, roll +wits, and for any challenge die showing less than five, set it to five. You may not Cast a Spell to affect the results of this move.\n\n\n\n\n\nOn a **strong hit**, Chaos remains at +5. You hold the fragments of your mind together, just barely... this time.\n\n\n\n\n\nOn a **weak hit**, choose one:\n\n\n - Your mind shatters. You have just a moment before conscious reality as you knew it is lost forever. You may perform one last feat of arcane mastery, leaving your mark upon the world. Envision this final moment.\n\n\n - You experience astral ripping, your soul becoming sundered from your body. In this state, you can see the chromatic Mark on your spirit: the channel through which you draw magical power. As your connection to your body is wracked by a torrent of uncontrolled magical energies, you realize that removing the Mark would stop the flow, though it will grievously wound your spirit. If you choose to sever your Mark, Swear an Iron Vow to heal your soul if you survive. On a hit, remove your Chaos marker and discard The Mark asset. If you miss or refuse the vow, your soul is severed from your body, ending your mortal life.\n\n\n\n\n\nOn a **miss**, your control over the Chaos buckles. Choose one:\n\n\n -  You desperately try to hold onto control to prevent disaster, destroying your body in the process. When it finally dies, your disembodied soul remains bound to this plane in its anguish. Envision where and how your spirit haunts a now foreboding and gloomy place.\n\n\n -  You give in to the sheer rush of power, and some aspect of the secret nature of this world is revealed to you. Envision this new understanding. The unbridled power channeled through you erupts in a catastrophic explosion of Chaotic energies, destroying your body. Identify your location on the map, and remove any structures in the immediate area (e.g. village, ruin, etc.). This is a wasteland of Chaos, where the sun slants in odd ways, strange creatures lurk in impossible shadows, and the very land itself allows no escape. Name this horrific place, as appropriate to your world.\n\n"
+    }
+  ]
+}
+

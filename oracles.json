@@ -1,0 +1,1790 @@
+[
+  {
+    "Name": "Ironsmith: Monster Hunting Heed the Call",
+    "Display name": "Ironsmith: Monster Hunting Heed the Call",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "What has the monster done",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Zabijał ludzi"
+          },
+          {
+            "Chance": 20,
+            "Description": "Ranił ludzi"
+          },
+          {
+            "Chance": 30,
+            "Description": "Porywał ludzi"
+          },
+          {
+            "Chance": 40,
+            "Description": "Atakował bydło"
+          },
+          {
+            "Chance": 50,
+            "Description": "Straszył zwierzynę"
+          },
+          {
+            "Chance": 60,
+            "Description": "Niszyczył / uszkadzał struktury"
+          },
+          {
+            "Chance": 70,
+            "Description": "Niszyczył / uszkadzał plony"
+          },
+          {
+            "Chance": 80,
+            "Description": "Powodował choroby lub zarazy"
+          },
+          {
+            "Chance": 90,
+            "Description": "Niszczył potrzebne zasoby"
+          },
+          {
+            "Chance": 100,
+            "Description": "Przyniósł mistyczną chorobę lub klątwę na daną społeczność"
+          }
+        ]
+      },
+      {
+        "Name": "How have they tried to stop it",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Wysłali łowców"
+          },
+          {
+            "Chance": 20,
+            "Description": "Zastawiali pułapki"
+          },
+          {
+            "Chance": 30,
+            "Description": "Próbowli go wywabić"
+          },
+          {
+            "Chance": 40,
+            "Description": "Próbowali go przepłoszyć / wystraszyć"
+          },
+          {
+            "Chance": 50,
+            "Description": "Zniszczyli gniazdo"
+          },
+          {
+            "Chance": 60,
+            "Description": "Zatruli jego jedzenie"
+          },
+          {
+            "Chance": 70,
+            "Description": "Zniszczyli źródł pożywienia potwora"
+          },
+          {
+            "Chance": 80,
+            "Description": "Wznieśli obronne fortyfikacje"
+          },
+          {
+            "Chance": 90,
+            "Description": "Wysyłali strażników lub patrole"
+          },
+          {
+            "Chance": 100,
+            "Description": "Mistyczne znaki lub rytuały"
+          }
+        ]
+      },
+      {
+        "Name": "What is their dominant attitude",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "Zastygli ze strachu"
+          },
+          {
+            "Chance": 33,
+            "Description": "Bezradni lub poddali się"
+          },
+          {
+            "Chance": 49,
+            "Description": "Spanikowani lub nieostrożni"
+          },
+          {
+            "Chance": 66,
+            "Description": "Przerażeni stratami"
+          },
+          {
+            "Chance": 83,
+            "Description": "Buntują się lub ingorują to"
+          },
+          {
+            "Chance": 100,
+            "Description": "Wściekli lub agresywni"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: Monster Hunting Search for Tracks or Location Sign",
+    "Display name": "Ironsmith: Monster Hunting Search for Tracks or Location Sign",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Sign",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Ślady"
+          },
+          {
+            "Chance": 20,
+            "Description": "Wydeptany szlak"
+          },
+          {
+            "Chance": 30,
+            "Description": "Leże lub dziedzina"
+          },
+          {
+            "Chance": 40,
+            "Description": "Ślad na podstawie roślinności"
+          },
+          {
+            "Chance": 50,
+            "Description": "Ślad na podstawie białek"
+          },
+          {
+            "Chance": 60,
+            "Description": "Zniszczona roślinność"
+          },
+          {
+            "Chance": 70,
+            "Description": "Miejsce zbrodni"
+          },
+          {
+            "Chance": 80,
+            "Description": "Wyplówka (jak u sowy)"
+          },
+          {
+            "Chance": 90,
+            "Description": "Pióra, łóski lub sierść"
+          },
+          {
+            "Chance": 100,
+            "Description": "Zniszczone gniazdo"
+          }
+        ]
+      },
+      {
+        "Name": "Age",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "minuty"
+          },
+          {
+            "Chance": 33,
+            "Description": "godziny"
+          },
+          {
+            "Chance": 49,
+            "Description": "dni"
+          },
+          {
+            "Chance": 66,
+            "Description": "tygodnie"
+          },
+          {
+            "Chance": 83,
+            "Description": "miesiące"
+          },
+          {
+            "Chance": 100,
+            "Description": "lata"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: Monster Hunting End Fight",
+    "Display name": "Ironsmith: Monster End Fight",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Strong Hit",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Zostaje zabity na miejscu"
+          },
+          {
+            "Chance": 20,
+            "Description": "Pada nieprzytomny i jest na twojej łasce"
+          },
+          {
+            "Chance": 30,
+            "Description": "Byłeś na jego łasce, ale potwór zawiódł i spokojnie wycofał się"
+          },
+          {
+            "Chance": 40,
+            "Description": "Przestaje atakować i kuli się"
+          },
+          {
+            "Chance": 50,
+            "Description": "Jest okaleczony i nie stanowi już zagrożenia"
+          },
+          {
+            "Chance": 60,
+            "Description": "Jest śmiertelnie zraniony, leży i umiera"
+          },
+          {
+            "Chance": 70,
+            "Description": "Stracił najpotężniejszą broń lub sposób ataku i jest niezdolny do walki"
+          },
+          {
+            "Chance": 80,
+            "Description": "Otrzymuje rozpoznawalną ranę i ucieka ze strachu"
+          },
+          {
+            "Chance": 90,
+            "Description": "Uświadamia sobie, że przegrał tą walkę i ucieka w szale by się przegrupować"
+          },
+          {
+            "Chance": 100,
+            "Description": "Zmienia postawę z agresywnej na niechętny szacunek i przestaje atakować"
+          }
+        ]
+      },
+      {
+        "Name": "Weak Hit",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Jest gorzej niż myślałeś: Staw czoła ranom"
+          },
+          {
+            "Chance": 20,
+            "Description": "Jesteś przytłoczony: Staw czoła stresowi"
+          },
+          {
+            "Chance": 30,
+            "Description": "Twoje zwycięztwo jest krótkotrwałe, nowe niebezpieczeństwo pojawia się lub obecne pogarsza"
+          },
+          {
+            "Chance": 40,
+            "Description": "Cierpisz na szkody uboczne: coś co cenisz jest zagubione lub zniszczone, lub ktoś kogo cenisz musi ponieść cenę."
+          },
+          {
+            "Chance": 50,
+            "Description": "Zapłacisz za to: cel zadania wymyka się poza twój zasięg"
+          },
+          {
+            "Chance": 60,
+            "Description": "Ktoś niezapomni: ktoś będzie chciał się zemścić"
+          },
+          {
+            "Chance": 70,
+            "Description": "Zostałeś naznaczony: potwór oznaczył cię, zainfekował chorobą lub nałożył klątwę na ciebie w pewien  rozpoznawalny sposób"
+          },
+          {
+            "Chance": 80,
+            "Description": "Osada wciąż cierpi: kolejny incydent nastąpił. Rzuć na akcję i motyw i sprawdź co to jest."
+          },
+          {
+            "Chance": 90,
+            "Description": "Fabuła się zagęszcza: rzuć na aspekt i skupienie z delve"
+          },
+          {
+            "Chance": 100,
+            "Description": "Jesteś postrzegany jako bezwzględny lub nieprzyjemny: Jeśli masz więź z osadą lub kimś blisko zaangażowanym w polowanie na potwory, przetestuj swoją więź. W przeciwnym razie nie możesz pozostać w osadzie po tej walce (wykonać ruchu gościny)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: Monster Hunting Uncover a Secret",
+    "Display name": "Ironsmith: Monster Hunting Uncover a Secret",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Actor",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Ważny obywatel"
+          },
+          {
+            "Chance": 20,
+            "Description": "Nadzorca / władca"
+          },
+          {
+            "Chance": 30,
+            "Description": "Społeczny wyrzutek"
+          },
+          {
+            "Chance": 40,
+            "Description": "Łamacz przysiąg"
+          },
+          {
+            "Chance": 50,
+            "Description": "Wiarus / emerytowany wojownik"
+          },
+          {
+            "Chance": 60,
+            "Description": "Lokalny i głośny fanatyk"
+          },
+          {
+            "Chance": 70,
+            "Description": "Cichy łowca"
+          },
+          {
+            "Chance": 80,
+            "Description": "Ukryta grupa najeźdźców"
+          },
+          {
+            "Chance": 90,
+            "Description": "Handlarz/kupiec"
+          },
+          {
+            "Chance": 100,
+            "Description": "Inny zaprzysiężony żelazu"
+          }
+        ]
+      },
+      {
+        "Name": "Secretly Does",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Prowadzi potwora tak, by ten atakował konkretnych ludzi"
+          },
+          {
+            "Chance": 20,
+            "Description": "Zbiera cześci / pozostałości potwora"
+          },
+          {
+            "Chance": 30,
+            "Description": "Prowokuje potwora by ten cześciej atakował"
+          },
+          {
+            "Chance": 40,
+            "Description": "Chroni / broni potwora"
+          },
+          {
+            "Chance": 50,
+            "Description": "Osłabia obronność osady"
+          },
+          {
+            "Chance": 60,
+            "Description": "Zbiera informacje o potworze"
+          },
+          {
+            "Chance": 70,
+            "Description": "Próbuje zwabić potwora do nowej osady"
+          },
+          {
+            "Chance": 80,
+            "Description": "Poluje na potomstwo potwora"
+          },
+          {
+            "Chance": 90,
+            "Description": "zakłóca polowanie na potwora"
+          },
+          {
+            "Chance": 100,
+            "Description": "Nasącza potwora mistyczną energią / mocą"
+          }
+        ]
+      },
+      {
+        "Name": "Why",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "by się wzbogacić"
+          },
+          {
+            "Chance": 33,
+            "Description": "by ukończyć mroczny rytuał"
+          },
+          {
+            "Chance": 49,
+            "Description": "by dokonać zemsty"
+          },
+          {
+            "Chance": 66,
+            "Description": "ponieważ ktoś mu rozkazał"
+          },
+          {
+            "Chance": 83,
+            "Description": "ponieważ jest pod mocą mrocznego geas"
+          },
+          {
+            "Chance": 100,
+            "Description": "by ukryć wcześniejsze zbrodnie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: Monster Hunting Find an Opposing Viewpoint",
+    "Display name": "Ironsmith: Monster Hunting Find an Opposing Viewpoint",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Actor",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Potomek Skuldów"
+          },
+          {
+            "Chance": 20,
+            "Description": "Podrużujący prorok"
+          },
+          {
+            "Chance": 30,
+            "Description": "Czczony/szanowany pustelnik"
+          },
+          {
+            "Chance": 40,
+            "Description": "Praktykujący magię"
+          },
+          {
+            "Chance": 50,
+            "Description": "Czciciel przyrody / natury"
+          },
+          {
+            "Chance": 60,
+            "Description": "Wpływowy przedsiębiorca"
+          },
+          {
+            "Chance": 70,
+            "Description": "Amator ciemności lub zakazanych sztuk"
+          },
+          {
+            "Chance": 80,
+            "Description": "Pierwszorodny tej ziemii, który ujawnia się tylko teraz"
+          },
+          {
+            "Chance": 90,
+            "Description": "Kapitan statku z starą mapą"
+          },
+          {
+            "Chance": 100,
+            "Description": "Inny zaprzysiężony żelazu"
+          }
+        ]
+      },
+      {
+        "Name": "Want",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "zbudować mury wokół osady i zostawić potwora"
+          },
+          {
+            "Chance": 20,
+            "Description": "Uśpić / zbadać potwora przed jego zabiciem"
+          },
+          {
+            "Chance": 30,
+            "Description": "Zaprowadzić potwora do bezpiecznej lokacji"
+          },
+          {
+            "Chance": 40,
+            "Description": "Pozbawić potwora największej broni i go zostawić"
+          },
+          {
+            "Chance": 50,
+            "Description": "Pozostawić tereny wokół i osadę potworowi"
+          },
+          {
+            "Chance": 60,
+            "Description": "Złapać potwora żywcem"
+          },
+          {
+            "Chance": 70,
+            "Description": "Użyć potwora"
+          },
+          {
+            "Chance": 80,
+            "Description": "Zabić potwora i zabrać jego potomstwo"
+          },
+          {
+            "Chance": 90,
+            "Description": "Rozmnożyć potwora"
+          },
+          {
+            "Chance": 100,
+            "Description": "Udomowić / wytresować potwora"
+          }
+        ]
+      },
+      {
+        "Name": "Why",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "z powodu altruizmu"
+          },
+          {
+            "Chance": 33,
+            "Description": "by ukończyć ważny rytuał dla osady"
+          },
+          {
+            "Chance": 49,
+            "Description": "by umożliwić następny krok w tajnym spisku"
+          },
+          {
+            "Chance": 66,
+            "Description": "by spłacić długi"
+          },
+          {
+            "Chance": 83,
+            "Description": "by przeciwstawić się nadciągającemu zagrożeniu"
+          },
+          {
+            "Chance": 100,
+            "Description": "by odnaleźć ukrytą relikwię Starego Świata"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: Monster Hunting Background",
+    "Display name": "Ironsmith: Monster Hunting Background",
+    "Source": {
+      "Name": "Ironsmith: Monster Hunting",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Monster wants to",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Upolować jedzenie"
+          },
+          {
+            "Chance": 20,
+            "Description": "Bronić terytorium"
+          },
+          {
+            "Chance": 30,
+            "Description": "Znaleźć partnera/-rkę"
+          },
+          {
+            "Chance": 40,
+            "Description": "Chronić potomstwo"
+          },
+          {
+            "Chance": 50,
+            "Description": "Szukać jedzenia"
+          },
+          {
+            "Chance": 60,
+            "Description": "Rozszerzyć terytorium"
+          },
+          {
+            "Chance": 70,
+            "Description": "Założyć/zbudować nowe leże / gniazdo"
+          },
+          {
+            "Chance": 80,
+            "Description": "Uciec przed większym zagorżeniem"
+          },
+          {
+            "Chance": 90,
+            "Description": "Połączyć się z innymi swego rodzaju / znaleźć stado"
+          },
+          {
+            "Chance": 100,
+            "Description": "Pokonać rywali"
+          }
+        ]
+      },
+      {
+        "Name": "But",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Osada jest zbudowana na drodze"
+          },
+          {
+            "Chance": 20,
+            "Description": "Łowca zabił ofiarę potwora"
+          },
+          {
+            "Chance": 30,
+            "Description": "Mała grupa skrzywdziła potwora"
+          },
+          {
+            "Chance": 40,
+            "Description": "Przechodnie przypadkowo go wystraszyli"
+          },
+          {
+            "Chance": 50,
+            "Description": "Teren czyni to trudnym"
+          },
+          {
+            "Chance": 60,
+            "Description": "Sidła go zraniły"
+          },
+          {
+            "Chance": 70,
+            "Description": "Mała grupa nieświadomie obraziła ją poprzez akcję lub wykroczenie"
+          },
+          {
+            "Chance": 80,
+            "Description": "Mała grupa podjęła agresywne działania przeciwko potworowi dla sportu"
+          },
+          {
+            "Chance": 90,
+            "Description": "Mała grupa zebrała / zabrała ostatki jedzenia potwora"
+          },
+          {
+            "Chance": 100,
+            "Description": "Mała grupa zakłóciła spokój gniazda / leża"
+          }
+        ]
+      },
+      {
+        "Name": "And it is getting worse because",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "potwór rośnie"
+          },
+          {
+            "Chance": 33,
+            "Description": "konkurujące potwory zbliżają się"
+          },
+          {
+            "Chance": 49,
+            "Description": "potwór starzeje się i jest coraz bardziej zdesperowany"
+          },
+          {
+            "Chance": 66,
+            "Description": "potwór jest zarażony żelazną zarazą"
+          },
+          {
+            "Chance": 83,
+            "Description": "potwór jest zatruty i zdesperowany"
+          },
+          {
+            "Chance": 100,
+            "Description": "potwór mutuje i zyskuje nowe zdolności"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ironsmith: MYSTERY VOWS",
+    "Display name": "Ironsmith: MYSTERY VOWS",
+    "Source": {
+      "Name": "Ironsmith: VOWS AND MILESTONES",
+      "Date": "110821"
+    },
+    "Oracles": [
+      {
+        "Name": "Premise",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "Dowiedz się, kto jest zabójcą, zanim zaatakują ponownie."
+          },
+          {
+            "Chance": 33,
+            "Description": "Dowiedz się, kto ukradł cenny relikt i zwróć go."
+          },
+          {
+            "Chance": 49,
+            "Description": "Dowiedz się, kto szantażuje wybitnego obywatela i napraw to."
+          },
+          {
+            "Chance": 66,
+            "Description": "Dowiedz się, kto dostarcza wrogowi broń lub informacje i zakończ to."
+          },
+          {
+            "Chance": 83,
+            "Description": "Dowiedz się, kto rzucił klątwę na osadę i odwróć ją."
+          },
+          {
+            "Chance": 100,
+            "Description": "Dowiedz się, dlaczego osada lub budynek zostały zniszczone lub opuszczone i upewnij się, że to się więcej nie powtórzy."
+          }
+        ]
+      },
+      {
+        "Name": "Item_of_Narrative_Significance_Part_1",
+        "Table": [
+          {
+            "Chance": 1,
+            "Description": "Rozdarty skrawek skóry"
+          },
+          {
+            "Chance": 2,
+            "Description": "Sztabka czarnego żelaza"
+          },
+          {
+            "Chance": 3,
+            "Description": "Charakterystyczna futrzana zarzutka/szal"
+          },
+          {
+            "Chance": 4,
+            "Description": "Skóra wilka"
+          },
+          {
+            "Chance": 5,
+            "Description": "Koszula kolcza"
+          },
+          {
+            "Chance": 6,
+            "Description": "Nienaturalna czaszka"
+          },
+          {
+            "Chance": 7,
+            "Description": "Zepsuta tarcza"
+          },
+          {
+            "Chance": 8,
+            "Description": "Przetrawiony fragment kości"
+          },
+          {
+            "Chance": 9,
+            "Description": "Mistyczne skupienie mocy"
+          },
+          {
+            "Chance": 10,
+            "Description": "Pochodnia i inne zużyte zasoby"
+          },
+          {
+            "Chance": 11,
+            "Description": "Spalony fragment mapy"
+          },
+          {
+            "Chance": 12,
+            "Description": "Rozerwnaa skórzana saszetka"
+          },
+          {
+            "Chance": 13,
+            "Description": "Porysowany pierścień z żelaza"
+          },
+          {
+            "Chance": 14,
+            "Description": "Przebity bukłak"
+          },
+          {
+            "Chance": 15,
+            "Description": "Naszyjnik ze stopionego żelaza"
+          },
+          {
+            "Chance": 16,
+            "Description": "Krąg soli zaburzony w jednym kierunku"
+          },
+          {
+            "Chance": 17,
+            "Description": "Pospiesznie wyrzucona głowa topora"
+          },
+          {
+            "Chance": 18,
+            "Description": "Zwój zapieczętowany woskiem"
+          },
+          {
+            "Chance": 19,
+            "Description": "Pęknięty tygiel"
+          },
+          {
+            "Chance": 20,
+            "Description": "Zmięte resztki listu"
+          },
+          {
+            "Chance": 21,
+            "Description": "Zepsuty moździerz i tłuczek"
+          },
+          {
+            "Chance": 22,
+            "Description": "Ukryta drewniana skrzynia"
+          },
+          {
+            "Chance": 23,
+            "Description": "Sakiewka rzadkich ziół"
+          },
+          {
+            "Chance": 24,
+            "Description": "Dodatkowy zwłoki mieszkańca żelaznych ziem"
+          },
+          {
+            "Chance": 25,
+            "Description": "Plama krwi"
+          },
+          {
+            "Chance": 26,
+            "Description": "Dodatkowe zwłoki pierworodnego"
+          },
+          {
+            "Chance": 27,
+            "Description": "Uruchomiona pułapka"
+          },
+          {
+            "Chance": 28,
+            "Description": "Świeżo zwłoki zwierzęcia"
+          },
+          {
+            "Chance": 29,
+            "Description": "Księga napisana runami"
+          },
+          {
+            "Chance": 30,
+            "Description": "Rozkładające się zwłoki bestii"
+          },
+          {
+            "Chance": 31,
+            "Description": "Sigil klanu lub rodziny"
+          },
+          {
+            "Chance": 32,
+            "Description": "Pozostałości po farbach wojennych"
+          },
+          {
+            "Chance": 33,
+            "Description": "Tajemne runy nabazgrane krwią"
+          },
+          {
+            "Chance": 34,
+            "Description": "Starannie wykonane palenisko"
+          },
+          {
+            "Chance": 35,
+            "Description": "Znak niedawnego przejścia"
+          },
+          {
+            "Chance": 36,
+            "Description": "Ząb trującej bestii"
+          },
+          {
+            "Chance": 37,
+            "Description": "Fiolka zapasów alchemicznych"
+          },
+          {
+            "Chance": 38,
+            "Description": "Pazur rzadkiej bestii"
+          },
+          {
+            "Chance": 39,
+            "Description": "Zgnieciony hełm"
+          },
+          {
+            "Chance": 40,
+            "Description": "Złamany łuk i pusty kołczan"
+          },
+          {
+            "Chance": 41,
+            "Description": "Złamane ostrze z brakującą rękojeścią"
+          },
+          {
+            "Chance": 42,
+            "Description": "Odłamek lustra"
+          },
+          {
+            "Chance": 43,
+            "Description": "Zakrwawiony sztylet"
+          },
+          {
+            "Chance": 44,
+            "Description": "Rzeźbiona drewniana figura"
+          },
+          {
+            "Chance": 45,
+            "Description": "Młotek z dzieloną główką (jak do wyjmowania gwoździ)"
+          },
+          {
+            "Chance": 46,
+            "Description": "Kufel do picia"
+          },
+          {
+            "Chance": 47,
+            "Description": "Strzała z kolorowymi lotkami"
+          },
+          {
+            "Chance": 48,
+            "Description": "Bardzo zużyty młot kuźniczy"
+          },
+          {
+            "Chance": 49,
+            "Description": "Kryształowy odłamek buczący z mocą"
+          },
+          {
+            "Chance": 50,
+            "Description": "Szczypce kuźnicze wykonane z nieznanego materiału"
+          },
+          {
+            "Chance": 51,
+            "Description": "Dłuto snycerskie"
+          },
+          {
+            "Chance": 52,
+            "Description": "Ciężki sekstant z mosiądzu"
+          },
+          {
+            "Chance": 53,
+            "Description": "Podarty i zakrwawiony but"
+          },
+          {
+            "Chance": 54,
+            "Description": "Roztrzaskana koncha muszli"
+          },
+          {
+            "Chance": 55,
+            "Description": "Zardzewiałe haczyki na ryby"
+          },
+          {
+            "Chance": 56,
+            "Description": "Kompas z brakującą żelazną igłą"
+          },
+          {
+            "Chance": 57,
+            "Description": "Mała pusta klatka"
+          },
+          {
+            "Chance": 58,
+            "Description": "Żelazny klucz z zwierzęcą głową"
+          },
+          {
+            "Chance": 59,
+            "Description": "Podarty materiałowy kosz"
+          },
+          {
+            "Chance": 60,
+            "Description": "Zerwany kawałek łańcucha"
+          },
+          {
+            "Chance": 61,
+            "Description": "Utrzymujący się zapach kadzidła"
+          },
+          {
+            "Chance": 62,
+            "Description": "Kości wykonane z kości i wyrzeźbionymi runami"
+          },
+          {
+            "Chance": 63,
+            "Description": "Skóra niedźwiedzia"
+          },
+          {
+            "Chance": 64,
+            "Description": "Ślady tego, że rytuał nie powiódł się"
+          },
+          {
+            "Chance": 65,
+            "Description": "Skóra lwa jaskiniowego"
+          },
+          {
+            "Chance": 66,
+            "Description": "Pozostałości gęstej, lepkiej trucizny"
+          },
+          {
+            "Chance": 67,
+            "Description": "Jajko wiwerny"
+          },
+          {
+            "Chance": 68,
+            "Description": "Bukłak mocnego alkoholu"
+          },
+          {
+            "Chance": 69,
+            "Description": "Przemoknięty płaszcz"
+          },
+          {
+            "Chance": 70,
+            "Description": "Pióra rzadkiego stworzenia"
+          },
+          {
+            "Chance": 71,
+            "Description": "Skomplikowana żelazna opaska"
+          },
+          {
+            "Chance": 72,
+            "Description": "Kosmyk włosów związany skórzanym rzemykiem"
+          },
+          {
+            "Chance": 73,
+            "Description": "Duża perła"
+          },
+          {
+            "Chance": 74,
+            "Description": "Łopata obok świeżo ubitej ziemi"
+          },
+          {
+            "Chance": 75,
+            "Description": "Bęben z rozdartą membraną"
+          },
+          {
+            "Chance": 76,
+            "Description": "Nóż używany do przyrządzania mięsa"
+          },
+          {
+            "Chance": 77,
+            "Description": "Sękaty i skręcony kij"
+          },
+          {
+            "Chance": 78,
+            "Description": "Pojedyncze złamane poroże"
+          },
+          {
+            "Chance": 79,
+            "Description": "Pióro przełamane na pół"
+          },
+          {
+            "Chance": 80,
+            "Description": "Koc i zapasy pozostawione przy tlący się ognisku"
+          },
+          {
+            "Chance": 81,
+            "Description": "Rękawiczka obszyta futrem śliska od krwii"
+          },
+          {
+            "Chance": 82,
+            "Description": "Zepsuta klamra paska i skórzane kawałki"
+          },
+          {
+            "Chance": 83,
+            "Description": "Opaska na ramię z żelaza"
+          },
+          {
+            "Chance": 84,
+            "Description": "Fajka gliniana do palenia"
+          },
+          {
+            "Chance": 85,
+            "Description": "Woreczek tytoniu/ziela do palenia"
+          },
+          {
+            "Chance": 86,
+            "Description": "Osełka z wytrawioną pieczęcią z tyłu"
+          },
+          {
+            "Chance": 87,
+            "Description": "Mała skrzynka rozbita na ziemi"
+          },
+          {
+            "Chance": 88,
+            "Description": "Elfia maska ​​z drogocennego drewna"
+          },
+          {
+            "Chance": 89,
+            "Description": "Wózek z uszkodzonym kołem"
+          },
+          {
+            "Chance": 90,
+            "Description": "Totem dzikiego zwierzęcia"
+          },
+          {
+            "Chance": 91,
+            "Description": "Pęknięty gliniany garnek przedstawiający bitwę"
+          },
+          {
+            "Chance": 92,
+            "Description": "Talizman z rozdartym i zakrwawionym łańcuchem"
+          },
+          {
+            "Chance": 93,
+            "Description": "Żelazna urna z rozpoznawalnym symbolem"
+          },
+          {
+            "Chance": 94,
+            "Description": "Kamienie ułożone jako pomnik"
+          },
+          {
+            "Chance": 95,
+            "Description": "Pusty kałamarz po atramencie"
+          },
+          {
+            "Chance": 96,
+            "Description": "Mała bryłka wypalonej świecy o nietypowym kolorze"
+          },
+          {
+            "Chance": 97,
+            "Description": "Włócznia przymocowana do rozdartej liny"
+          },
+          {
+            "Chance": 98,
+            "Description": "Zepsuta lutnia najwyższej jakości wykonania"
+          },
+          {
+            "Chance": 99,
+            "Description": "Mapa gwiazd do nawigacji"
+          },
+          {
+            "Chance": 100,
+            "Description": "Flet wyrzeźbiony ze świętego drewna"
+          }
+        ]
+      },
+      {
+        "Name": "Item_of_Narrative_Significance_Part_2",
+        "Table": [
+          {
+            "Chance": 1,
+            "Description": "Krwawy odcisk dłoni"
+          },
+          {
+            "Chance": 2,
+            "Description": "Ślady butów o grubej podeszwie"
+          },
+          {
+            "Chance": 3,
+            "Description": "Świecący kryształowy odłamek"
+          },
+          {
+            "Chance": 4,
+            "Description": "Węglowy szkic bestii"
+          },
+          {
+            "Chance": 5,
+            "Description": "Lotka rzadkiego ptaka"
+          },
+          {
+            "Chance": 6,
+            "Description": "Dziennik dziwnych podróży"
+          },
+          {
+            "Chance": 7,
+            "Description": "Humanoidalna czaszka z charakterystycznymi obrażeniami"
+          },
+          {
+            "Chance": 8,
+            "Description": "Lista nazwisk z kilkoma wykreślonymi"
+          },
+          {
+            "Chance": 9,
+            "Description": "Ilustracje anatomii człowieka"
+          },
+          {
+            "Chance": 10,
+            "Description": "Saszetka worków z pajęczymi jajami"
+          },
+          {
+            "Chance": 11,
+            "Description": "Pisma zawierający opis ruchu ciał niebieskich"
+          },
+          {
+            "Chance": 12,
+            "Description": "Ząb - skamielina"
+          },
+          {
+            "Chance": 13,
+            "Description": "Proszek z pokruszonej kości"
+          },
+          {
+            "Chance": 14,
+            "Description": "Spis ekwipunku dla kowala"
+          },
+          {
+            "Chance": 15,
+            "Description": "Sakiewka ziół halucynogennych"
+          },
+          {
+            "Chance": 16,
+            "Description": "Wąż lub żaba w klatce"
+          },
+          {
+            "Chance": 17,
+            "Description": "Mały bukłak z krwią"
+          },
+          {
+            "Chance": 18,
+            "Description": "Figura wyrzeźbiona w kamieniu"
+          },
+          {
+            "Chance": 19,
+            "Description": "Sakiewka z żelaznymi racjami"
+          },
+          {
+            "Chance": 20,
+            "Description": "Częściowo zmontowana pułapka"
+          },
+          {
+            "Chance": 21,
+            "Description": "guano nietoperzy"
+          },
+          {
+            "Chance": 22,
+            "Description": "Skóra jelenia"
+          },
+          {
+            "Chance": 23,
+            "Description": "Szybki szkic mapy częściowo odwiedzonego miejsca"
+          },
+          {
+            "Chance": 24,
+            "Description": "Materiały na namiot lub inne tymczasowe schronienie"
+          },
+          {
+            "Chance": 25,
+            "Description": "Zużyte i wyrzucone bandaże"
+          },
+          {
+            "Chance": 26,
+            "Description": "Podarty i przetarty płaszcz"
+          },
+          {
+            "Chance": 27,
+            "Description": "Spis ekwipunku dla rolnika"
+          },
+          {
+            "Chance": 28,
+            "Description": "Spis ekwipunku dla alchemika"
+          },
+          {
+            "Chance": 29,
+            "Description": "Wełniana wyściółka zbroi"
+          },
+          {
+            "Chance": 30,
+            "Description": "Związany i nieprzytomny człowiek"
+          },
+          {
+            "Chance": 31,
+            "Description": "Wyrzucone siodło, wodze i wędzidło"
+          },
+          {
+            "Chance": 32,
+            "Description": "Worek na paszę dla konia"
+          },
+          {
+            "Chance": 33,
+            "Description": "Nie dokończony obraz na drewnianej płycie"
+          },
+          {
+            "Chance": 34,
+            "Description": "Niedawno odkopany grób"
+          },
+          {
+            "Chance": 35,
+            "Description": "Grzyby psychodeliczne"
+          },
+          {
+            "Chance": 36,
+            "Description": "Naszyjnik z koralików pokrytych runami"
+          },
+          {
+            "Chance": 37,
+            "Description": "Bukłak mocnego piwa"
+          },
+          {
+            "Chance": 38,
+            "Description": "Starożytny grot włóczni"
+          },
+          {
+            "Chance": 39,
+            "Description": "Łaty na żagiel"
+          },
+          {
+            "Chance": 40,
+            "Description": "Dziwny manifest"
+          },
+          {
+            "Chance": 41,
+            "Description": "Szczur lub myszy w klatkach"
+          },
+          {
+            "Chance": 42,
+            "Description": "Sygnet"
+          },
+          {
+            "Chance": 43,
+            "Description": "Przykute, wychudzone zwierzę"
+          },
+          {
+            "Chance": 44,
+            "Description": "Mapa wyspy"
+          },
+          {
+            "Chance": 45,
+            "Description": "Ułamany kawałek kredy"
+          },
+          {
+            "Chance": 46,
+            "Description": "Zakrwawione szmaty"
+          },
+          {
+            "Chance": 47,
+            "Description": "Szaty ceremonialne"
+          },
+          {
+            "Chance": 48,
+            "Description": "Ślady zwierząt"
+          },
+          {
+            "Chance": 49,
+            "Description": "Małe kamienie ułożone w okrąg"
+          },
+          {
+            "Chance": 50,
+            "Description": "Kamienie z odległej lokalizacji"
+          },
+          {
+            "Chance": 51,
+            "Description": "Oznaki walki"
+          },
+          {
+            "Chance": 52,
+            "Description": "Kot lub pies w klatce"
+          },
+          {
+            "Chance": 53,
+            "Description": "Rysunek konstelacji gwiezdnej"
+          },
+          {
+            "Chance": 54,
+            "Description": "Środki do czyszczenia broni"
+          },
+          {
+            "Chance": 55,
+            "Description": "Dziennik osobisty"
+          },
+          {
+            "Chance": 56,
+            "Description": "Wędrujący i ranny wierzchowiec"
+          },
+          {
+            "Chance": 57,
+            "Description": "Wiersz z dziwnymi adnotacjami"
+          },
+          {
+            "Chance": 58,
+            "Description": "Pozostałości wierzchowca"
+          },
+          {
+            "Chance": 59,
+            "Description": "Ślady ugryzień bestii"
+          },
+          {
+            "Chance": 60,
+            "Description": "Buty obszyte futrem"
+          },
+          {
+            "Chance": 61,
+            "Description": "Ślady pazurów bestii"
+          },
+          {
+            "Chance": 62,
+            "Description": "Ptak lub nietoperz w klatce"
+          },
+          {
+            "Chance": 63,
+            "Description": "Mały bukłak z jadem"
+          },
+          {
+            "Chance": 64,
+            "Description": "Sakiewka trujących ziół"
+          },
+          {
+            "Chance": 65,
+            "Description": "Laska z zimnego / niebrobionego żelaza"
+          },
+          {
+            "Chance": 66,
+            "Description": "Księga mistycznych rytuałów"
+          },
+          {
+            "Chance": 67,
+            "Description": "Cenny kamień szlachetny"
+          },
+          {
+            "Chance": 68,
+            "Description": "Saszetka z solą"
+          },
+          {
+            "Chance": 69,
+            "Description": "Niespalona, ​​dziwnie pachnąca świeca"
+          },
+          {
+            "Chance": 70,
+            "Description": "Liczba w systemie karbowym (4 linie i jeszcze jedna która je przekreśla)"
+          },
+          {
+            "Chance": 71,
+            "Description": "Postrzępiona cięciwa"
+          },
+          {
+            "Chance": 72,
+            "Description": "Igła i nici z jelit"
+          },
+          {
+            "Chance": 73,
+            "Description": "Butelka nieznanego oleju"
+          },
+          {
+            "Chance": 74,
+            "Description": "Mała, zamknięta skrzynia"
+          },
+          {
+            "Chance": 75,
+            "Description": "Krwawe ślady stóp"
+          },
+          {
+            "Chance": 76,
+            "Description": "Pułapka, zastawiona, nieuruchomiona"
+          },
+          {
+            "Chance": 77,
+            "Description": "Notatki nadzorcy osady"
+          },
+          {
+            "Chance": 78,
+            "Description": "Zepsuta biżuteria ze złota"
+          },
+          {
+            "Chance": 79,
+            "Description": "Lista ekwipunku dla handlarza"
+          },
+          {
+            "Chance": 80,
+            "Description": "Niejasna mapa szlaków handlowych"
+          },
+          {
+            "Chance": 81,
+            "Description": "Drzeworyt przedstawiający okropną scenę"
+          },
+          {
+            "Chance": 82,
+            "Description": "Drzeworyt przedstawiający przyjemną scenę"
+          },
+          {
+            "Chance": 83,
+            "Description": "Saszetka egzotycznych przypraw"
+          },
+          {
+            "Chance": 84,
+            "Description": "Suszone skrawki mięsa"
+          },
+          {
+            "Chance": 85,
+            "Description": "Dowód tajnego przejścia"
+          },
+          {
+            "Chance": 86,
+            "Description": "Sterta śmieci i/lub odchodów"
+          },
+          {
+            "Chance": 87,
+            "Description": "Żelazny klucz z głową czaszki"
+          },
+          {
+            "Chance": 88,
+            "Description": "Mapa szlaków rybackich"
+          },
+          {
+            "Chance": 89,
+            "Description": "Sztandar pobliskiego klanu lub osady"
+          },
+          {
+            "Chance": 90,
+            "Description": "Związany i nieprzytomny pierworodny"
+          },
+          {
+            "Chance": 91,
+            "Description": "Rzadki kwiat, suszony i prasowany"
+          },
+          {
+            "Chance": 92,
+            "Description": "Przykute i niebezpieczne zwierzę"
+          },
+          {
+            "Chance": 93,
+            "Description": "Zwój modlitw"
+          },
+          {
+            "Chance": 94,
+            "Description": "Fragment glinianej tabliczki"
+          },
+          {
+            "Chance": 95,
+            "Description": "Obciążająca komunikacja"
+          },
+          {
+            "Chance": 96,
+            "Description": "Butelka wielobarwnego piasku"
+          },
+          {
+            "Chance": 97,
+            "Description": "Zestaw żelaznych kajdan"
+          },
+          {
+            "Chance": 98,
+            "Description": "Przerażająca maska"
+          },
+          {
+            "Chance": 99,
+            "Description": "Sprzęt rybacki"
+          },
+          {
+            "Chance": 100,
+            "Description": "Odcięty palec"
+          }
+        ]
+      },
+      {
+        "Name": "Clue_Relates_to",
+        "Table": [
+          {
+            "Chance": 33,
+            "Description": "Kto popełnił zbrodnię"
+          },
+          {
+            "Chance": 66,
+            "Description": "Dlaczego zbrodnia została popełniona"
+          },
+          {
+            "Chance": 100,
+            "Description": "Poprzednia lokalizacja sprawcy"
+          }
+        ]
+      },
+      {
+        "Name": "Who_Committed_the_Crime",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "Rywal lub sprzymierzeniec z twojej przeszłości"
+          },
+          {
+            "Chance": 33,
+            "Description": "Pierwszorodny"
+          },
+          {
+            "Chance": 49,
+            "Description": "Bestia lub horror"
+          },
+          {
+            "Chance": 66,
+            "Description": "Mistyczny fanatyk"
+          },
+          {
+            "Chance": 83,
+            "Description": "Wojownik lub łowca"
+          },
+          {
+            "Chance": 100,
+            "Description": "Rzemieślnik lub zwykły obywatel"
+          }
+        ]
+      },
+      {
+        "Name": "Why_It_was_Committed",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "Duma"
+          },
+          {
+            "Chance": 33,
+            "Description": "Chciwość"
+          },
+          {
+            "Chance": 49,
+            "Description": "Pożądanie"
+          },
+          {
+            "Chance": 66,
+            "Description": "Zazdrość"
+          },
+          {
+            "Chance": 83,
+            "Description": "Gniew"
+          },
+          {
+            "Chance": 100,
+            "Description": "Przypadkowo"
+          }
+        ]
+      },
+      {
+        "Name": "Past_Location_of_Culprit",
+        "Table": [
+          {
+            "Chance": 16,
+            "Description": "Rzemieślnik lub kowal"
+          },
+          {
+            "Chance": 33,
+            "Description": "Gęsty las"
+          },
+          {
+            "Chance": 49,
+            "Description": "Morze lub statek"
+          },
+          {
+            "Chance": 66,
+            "Description": "Inna osada"
+          },
+          {
+            "Chance": 83,
+            "Description": "Miejsce mocy"
+          },
+          {
+            "Chance": 100,
+            "Description": "Miejsce istotne dla twojej przeszłości"
+          }
+        ]
+      },
+      {
+        "Name": "Type_of_Info",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Lokalizacja"
+          },
+          {
+            "Chance": 20,
+            "Description": "Podejrzany aspekt w wyglądzie"
+          },
+          {
+            "Chance": 30,
+            "Description": "Podejrzana zmiana w"
+          },
+          {
+            "Chance": 40,
+            "Description": "Dziwne połączenie między bohaterem gracza a"
+          },
+          {
+            "Chance": 50,
+            "Description": "Dziwne połączenie między NPC a"
+          },
+          {
+            "Chance": 60,
+            "Description": "Lokalna legenda lub plotka na temat"
+          },
+          {
+            "Chance": 70,
+            "Description": "Wcześniejsza kłótnia z udziałem"
+          },
+          {
+            "Chance": 80,
+            "Description": "Niedawna strata emocjonalna lub materialna obejmująca:"
+          },
+          {
+            "Chance": 90,
+            "Description": "Niedawna zmiana władzy lub autorytetu obejmująca:"
+          },
+          {
+            "Chance": 100,
+            "Description": "Szkodliwy sekret obejmujący"
+          }
+        ]
+      },
+      {
+        "Name": "Topic_of_Info",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Główny podejrzany"
+          },
+          {
+            "Chance": 20,
+            "Description": "Narzędzie wykorzystywane w zbrodni"
+          },
+          {
+            "Chance": 30,
+            "Description": "Znana fizyczna wskazówka"
+          },
+          {
+            "Chance": 40,
+            "Description": "Nieodkryta fizyczna wskazówka"
+          },
+          {
+            "Chance": 50,
+            "Description": "Wcześniej nieznana, ale znaczna lokalizacja"
+          },
+          {
+            "Chance": 60,
+            "Description": "Krewny głównej ofiary"
+          },
+          {
+            "Chance": 70,
+            "Description": "Zagrożenie wtórne"
+          },
+          {
+            "Chance": 80,
+            "Description": "Ostatnio brakujący przedmiot"
+          },
+          {
+            "Chance": 90,
+            "Description": "Miejsce lub relikt mocy"
+          },
+          {
+            "Chance": 100,
+            "Description": "Lokalny lider"
+          }
+        ]
+      },
+      {
+        "Name": "Obstacle",
+        "Table": [
+          {
+            "Chance": 10,
+            "Description": "Dowody zostały zniszczone. Kto lub co zniszczyło te dowody i dlaczego mieliby wspierać przestępcę?"
+          },
+          {
+            "Chance": 20,
+            "Description": "Osoba posiadająca informacje nie chce się nimi z Tobą dzielić. Jakie zadanie musisz wykonać, aby zdobyć ich zaufanie lub zapłacić za informacje?"
+          },
+          {
+            "Chance": 30,
+            "Description": "Dowiadujesz się, że nie masz pozwolenia, pozycji ani władzy, aby udać się w miejsce, które musisz zbadać. Jak możesz pokazać, że zasługujesz na dostęp do takiej lokalizacji?"
+          },
+          {
+            "Chance": 40,
+            "Description": "Presja rośnie, ponieważ dowody, które właśnie odkryłeś, pokazują, że zagadka musi zostać szybko rozwiązana, aby nieodwracalna zmiana lub zły uczynek nie spowodowały, że śledztwo stało się dyskusyjne. Jakie jest zbliżające się wydarzenie?"
+          },
+          {
+            "Chance": 50,
+            "Description": "Pytania, które zadajesz lub miejsca, do których się udajesz, są uważane za tabu. Jak zdobyć potrzebne informacje bez obrażania ludzi?"
+          },
+          {
+            "Chance": 60,
+            "Description": "Przestępca jest ukrywany przez jakąś frakcję lub grupę. Jaki jest związek tej grupy z twoją przeszłością, który sprawi, że będzie ci trudno sobie z nimi poradzić?"
+          },
+          {
+            "Chance": 70,
+            "Description": "Dowiadujesz się, że jeśli przestępca zostanie złapany, najprawdopodobniej ucierpi niewinna osoba. Jak ta niewinna osoba jest uwikłane w tajemnicę?"
+          },
+          {
+            "Chance": 80,
+            "Description": "Podejrzany wysłał kogoś lub coś, aby powstrzymać cię przed dalszym dochodzeniem. Czym jest ta przeciwna siła i jak daleko chcą się posunąć, aby cię powstrzymać?"
+          },
+          {
+            "Chance": 90,
+            "Description": "Konflikt z twojej przeszłości pojawił się w nieodpowiednim czasie. Na czym polegał ten konflikt i jak teraz hamuje twoje postępy?"
+          },
+          {
+            "Chance": 100,
+            "Description": "Znajdujesz dowody na to, że główny podejrzany jest w rzeczywistości niewinny, a teraz uważają, że sprzeciwienie się tobie jest dla nich punktem honoru. Pomimo swojej niewinności, jakie specjalne informacje posiadają?"
+          }
+        ]
+      }
+    ]
+  }
+]

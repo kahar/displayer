@@ -1,0 +1,29 @@
+{
+  "Name": "Assets",
+  "Assets": [
+    {
+      "Name": "The Darkness Within - assets",
+      "Source": {
+        "Name": "Ironsmith: Corruption and the Darkness Within",
+        "Date": "110821"
+      },
+      "Category": "The Darkness Within",
+      "Description": "Define the darkness withing you: \n\n   Define an aspect the darkness holds power over: \n\n   Define any weakness the darkness bestows upon you:",
+      "Abilities": [
+        {
+          "Text": "You gain access to the moves: Wield the Darkness, Resist the Darkness, and Succumb to Darkness.",
+          "Enabled": true
+        },
+        {
+          "Text": "You gain access to the Cleanse the Darkness move. Envision your method for combatting the darkness influence inside you."
+        },
+        {
+          "Text": "When you Wield the Darkness, you may make major alterations instead of minor and also perform minor acts of creation with the chosen aspect."
+        },
+        {
+          "Text": "When you Wield the Darkness, you may perform major acts of creation and also bend the reality of the chosen aspect. You must have all other upgrades before choosing this one."
+        }
+      ]
+    }
+  ]
+}

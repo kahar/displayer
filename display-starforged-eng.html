@@ -1,0 +1,42 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/showdown-table@1.0.1/dist/showdown-table.min.js'></script>
+    <link rel="stylesheet" href="display.css">
+</head>
+
+<body>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="modal-content-txt">Some text in the Modal..</p>
+        <button onclick="addToLocalStoreHistory()">Add to history</button>
+    </div>
+
+</div>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'moves_SF')">Moves</button>
+    <button class="tablinks" onclick="openTab(event, 'assets_SF')">Assets</button>
+    <button class="tablinks" onclick="openTab(event, 'oracles_SF')">Oracles</button>
+
+</div>
+<div id="moves_SF" class="tabcontent">
+    <div id="moves_SF_list"></div>
+    >
+</div>
+<div id="assets_SF" class="tabcontent">
+    <div id="assets_SF_list">
+    </div>
+</div>
+<div id="oracles_SF" class="tabcontent">
+    <div id="oracles_SF_list">
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="display.js"></script>
+<script type="text/javascript" src="display-starforged-eng.js"></script>
+<script type="text/javascript" src="display-starforged.js"></script>

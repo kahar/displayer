@@ -1,0 +1,272 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/showdown-table@1.0.1/dist/showdown-table.min.js'></script>
+    <link rel="stylesheet" href="display.css">
+</head>
+
+<body>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="modal-content-txt">Some text in the Modal..</p>
+        <button onclick="addToLocalStoreHistory()">Dodaj do historii</button>
+    </div>
+
+</div>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'moves_I')">Ruchy</button>
+    <button class="tablinks" onclick="openTab(event, 'assets_I')">Talenty</button>
+    <button class="tablinks" onclick="openTab(event, 'oracles_I')">Wyrocznie</button>
+    <button class="tablinks" onclick="openTab(event, 'mystery_vow_I')">Mystery vow</button>
+    <button class="tablinks" onclick="openTab(event, 'monster_hunter_I')">Monster hunter</button>
+    <button class="tablinks" onclick="openTab(event, 'roll_oracles_I')">Rzuć na wyrocznie</button>
+    <button class="tablinks" onclick="openTab(event, 'roll_oracles_history')">Historia</button>
+
+</div>
+<div id="moves_I" class="tabcontent">
+    <div id="moves_I_list"></div>
+    >
+</div>
+<div id="assets_I" class="tabcontent">
+    <div id="assets_I_list">
+    </div>
+</div>
+<div id="oracles_I" class="tabcontent">
+    <div id="oracles_I_list">
+    </div>
+</div>
+
+<div id="mystery_vow_I" class="tabcontent">
+    <p class="oracle-row-to-roll" onclick="createPremiseIMV()">Krok 1. Przesłanka do śledzwta [klikalne]</p>
+    <p class="oracle-row-to-roll"
+       onclick='displayInModal("Po znalezieniu przedmiotu rzuć na tabelę czego dotyczyła wskazówka")'>Krok 2. Szukaj
+        fizycznych dowodów</p>
+    <p class="oracle-row-to-roll" onclick="createItemOfNarrativeSignificanceIMV()">Znajdź przedmiot istotny fabularnie
+        [klikalne]</p>
+    <p class="oracle-row-to-roll">Krok 3. Szukaj informacji o fizycznych dowodach</p>
+    <p class="oracle-row-to-roll" onclick="createInformationIMV()">Znajdź informację istotną fabularnie [klikalne]</p>
+    <p class="oracle-row-to-roll" onclick="createObstacleIMV()">Wygeneruj przeszkodę [klikalne]</p>
+
+    <p class="oracle-row-to-roll"
+       onclick='displayInModal("Po znalezieniu wskazówki usuń dwie inne z tabeli i dodaj tą którą znalazłeś. Pozwoli to na samonakręcającą spiralę prowadzącą do celu, ale pozwalającą na elastyczność")'>
+        Tabela wskazówek (czego dotyczą) &#9432;</p>
+    <table class="oracle-row-to-roll">
+        <tr>
+            <th></th>
+            <th>Kto popełnił zbrodnię</th>
+            <th>Dlaczego zbrodnia została popełniona</th>
+            <th>Poprzednia lokacja sprawcy</th>
+        </tr>
+        <tr>
+            <td> 1</td>
+            <td> Rywal lub sprzymierzeniec z twojej przeszłości</td>
+            <td> Duma</td>
+            <td> Rzemieślnik lub kowal</td>
+        </tr>
+        <tr>
+            <td> 2</td>
+            <td> Pierwszorodny</td>
+            <td> Chciwość</td>
+            <td> Gęsty las</td>
+        </tr>
+        <tr>
+            <td> 3</td>
+            <td> Bestia lub horror</td>
+            <td> Pożądanie</td>
+            <td> Morze lub statek</td>
+        </tr>
+        <tr>
+            <td> 4</td>
+            <td> Mistyczny fanatyk</td>
+            <td> Zazdrość</td>
+            <td> Inna osada</td>
+        </tr>
+        <tr>
+            <td> 5</td>
+            <td> Wojownik lub łowca</td>
+            <td> Gniew</td>
+            <td> Miejsce mocy</td>
+        </tr>
+        <tr>
+            <td> 6</td>
+            <td> Rzemieślnik lub zwykły obywatel</td>
+            <td> Przypadkowo</td>
+            <td> Miejsce istotne dla twojej przeszłości</td>
+        </tr>
+    </table>
+</div>
+
+<div id="monster_hunter_I" class="tabcontent">
+    <p class="oracle-row-to-roll" onclick="createCallIMH()">Krok 1. wezwanie [klikalne]</p>
+    <p class="oracle-row-to-roll" onclick="createMonstrosityI()">Krok 2: Wygeneruj potwora [klikalne]</p>
+    <p class="oracle-row-to-roll">Krok 3: Złóż przysięgę (ogólną np. przysięgam na miecz, że ten potwór nie będzie
+        dłużej szkodził osadzie)</p>
+    <p class="oracle-row-to-roll">Krok 4: Kamienie milowe:</p>
+    <table class="oracle-row-to-roll">
+        <tr>
+            <th>Akcja, gdzie sukces oznacza osiągnięcie kamienia ilowego na przysiędze</th>
+            <th>&#9432;</th>
+            <th>Przekonaj</th>
+            <th>Znajdź okazję</th>
+            <th>Zbieranie informacji</th>
+            <th>Zabezpiecz przewagę</th>
+        </tr>
+        <tr>
+            <td onclick='createTrackIMH()'>Szukaj śladów lub lokacji</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='createMonsterClueIMH()'>Odkryj słabość potwora</td>
+            <td onclick='displayInModal("Aby odkryć słabość potwora, należy zdobyć tyle wskazówek ile wynosi jego ranga (problematyczny 1, groźny 2, epicki 5). <br>W pełni wykorzystać można dopiero gdy postacie zbiorą wszystkie wzkazówki - inaczej potwór może okazać się odporny np. potwór jest wrażliwy na hałas, ale tylko w jaskiniach (echo) lub gdy wiele osób robi hałas metalicznymi częściami. Gdy postacie znają tylko jedną słabość hałas i tylko jedna osboa uderza chochlą w garnek - będzie to niewystarczające.")'>
+                &#9432;
+            </td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='uncoverSecretIMH()'>Odkryj sekret</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='findOpposingViewpointIMH()'>Znajdź inny punkt widzenia</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='displayInModal(rollOnOracleI(oraclesI.Character.Activity))'>Znajdź motyw potwora</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='displayInModal(rollOnOracleI(oraclesI.Prompt_Oracles.Aspect) + " " + rollOnOracleI(oraclesI.Prompt_Oracles.Focus))'>
+                Znajdź konflikt który to zapoczątkował
+            </td>
+            <td onclick='displayInModal("Źródło dlaczewgo powór tu przyszedł / przybył / jest")'>&#9432;</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='displayInModal(rollOnOracleI(oraclesI.Prompt_Oracles.Aspect) + " " + rollOnOracleI(oraclesI.Prompt_Oracles.Focus))'>
+                Odkryj coś co powoduje presję czasu
+            </td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td onclick='findMonsterMotivationIncitingConflictAndMountingPressureIMH()'>Połączone: motyw potwora,
+                podżegający konflikt i presja
+            </td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Zastaw pułapkę</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> X</td>
+        </tr>
+        <tr>
+            <td>Przygotuj się do wykorzystania słabości potwora</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> X</td>
+        </tr>
+
+    </table>
+    <p class="oracle-row-to-roll" onclick='displayInModal(confrontationWithMonsterIMH())'> Krok 5: Konfrontacja - czy to
+        co mówili to prawda?
+    <p>
+    <p class="oracle-row-to-roll"
+       onclick='endTheFightWithMonsterIMH()'> Krok 6: Kończenie walki z potworem
+    <p>
+    <p class="oracle-row-to-roll"> Krok 7 po walce</p>
+    <p class="oracle-row-to-roll">Zajmij się wszelkimi nikczemnymi działaniami ze strony osady.</p>
+    <p class="oracle-row-to-roll">Napraw problem, który spowodował potwór.</p>
+    <p class="oracle-row-to-roll">Umieść zabezpieczenia, które mogą zapobiec przyszłym atakom potworów.</p>
+
+    <p class="oracle-row-to-roll"> Krok 8 po wypełnieniu przysięgi</p>
+    <p class="oracle-row-to-roll">Potwór tak naprawdę nie jest poza obrazem.</p>
+    <p class="oracle-row-to-roll">Wyjęcie potwora zmieniło ekosystem.</p>
+    <p class="oracle-row-to-roll">Ujawnia się wyższa moc kryjąca się za potworem.</p>
+    <p class="oracle-row-to-roll">Pojawiają się opóźnione efekty ataku potwora.</p>
+    <p class="oracle-row-to-roll">Przeszłość powraca, by cię prześladować.</p>
+</div>
+
+
+<div id="roll_oracles_I" class="tabcontent">
+
+    <p class="oracle-row-to-roll" onclick='createCharacterI()'>Stwórz postać</p>
+    <p class="oracle-row-to-roll" onclick='createSettlementI()'>Stwórz osadę</p>
+    <p class="oracle-row-to-roll" onclick='createMonstrosityI()'>Stwórz potworność</p>
+    <p class="oracle-row-to-roll" onclick='createAimI()'>Gdzie jest mój cel</p>
+    <p class="oracle-row-to-roll" onclick='createWaypointI()'>Punkt podróży</p>
+    <p class="oracle-row-to-roll" onclick='createSiteI()'>Stwórz miejsce</p>
+    <br>
+
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Move.Pay_the_Price))'>Zapłać cenę</p>
+    <p class="oracle-row-to-roll"
+       onclick='displayInModal(rollOnOracleI(oraclesI.Prompt_Oracles.Action)+" "+rollOnOracleI(oraclesI.Prompt_Oracles.Theme))'>
+        Akcja i motyw</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Place_Oracles.Region))'>Region</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Place_Oracles.Location))'>Lokacja</p>
+    <p class="oracle-row-to-roll"
+       onclick='displayInModal(rollOnOracleI(oraclesI.Place_Oracles.Coastal_Waters_Location))'>Lokacja przybrzeżna</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Place_Oracles.Description))'>Opis
+        lokacji</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Name.Elf_Names))'>Imię elfie</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Name.Giant_Names))'>Imię giganta</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Name.Varou_Names))'>Imię varou</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Name.Troll_Names))'>Imię trola</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Turning_Point.Combat_Action))'>Akcja w
+        walce</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Turning_Point.Major_Plot_Twist))'>
+        Większy obrót fabuły</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Turning_Point.Mystic_Backlash))'>
+        Mistyczna reakcja</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleI(oraclesI.Turning_Point.Rank))'>Stopień
+        wyzwania</p>
+
+</div>
+
+<div id="roll_oracles_history" class="tabcontent">
+    <button onclick="showLocalStoreHistoryI()">Pokaż historię</button>
+    <button onclick="clearLocalStoreHistoryI()">Wyczyść historię</button>
+</div>
+
+</body>
+
+<script type="text/javascript" src="display.js"></script>
+<script type="text/javascript" src="display-ironsworn-pl.js"></script>
+<script type="text/javascript" src="display-ironsworn.js"></script>
+<script type="text/javascript" src="display-ironsworn-extended.js"></script>

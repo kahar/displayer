@@ -1,0 +1,155 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/showdown-table@1.0.1/dist/showdown-table.min.js'></script>
+    <link rel="stylesheet" href="display.css">
+</head>
+
+<body>
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="modal-content-txt">Some text in the Modal..</p>
+        <button onclick="addToLocalStoreHistory()">Dodaj do historii</button>
+    </div>
+
+</div>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'moves_SF')">Ruchy</button>
+    <button class="tablinks" onclick="openTab(event, 'assets_SF')">Talenty</button>
+    <button class="tablinks" onclick="openTab(event, 'oracles_SF')">Wyrocznie</button>
+    <button class="tablinks" onclick="openTab(event, 'roll_oracles_SF')">Rzuć na wyrocznie</button>
+    <button class="tablinks" onclick="openTab(event, 'roll_oracles_history')">Historia</button>
+    <button class="tablinks" onclick="openTab(event, 'other')">Inne</button>
+
+</div>
+<div id="moves_SF" class="tabcontent">
+    <div id="moves_SF_list"></div>
+    >
+</div>
+<div id="assets_SF" class="tabcontent">
+    <div id="assets_SF_list">
+    </div>
+</div>
+<div id="oracles_SF" class="tabcontent">
+    <div id="oracles_SF_list">
+    </div>
+</div>
+
+<div id="roll_oracles_SF" class="tabcontent">
+    <p class="oracle-row-to-roll" onclick='createCharacterSF()'>Character</p>
+    <p class="oracle-row-to-roll" onclick='createCharacterCreationSF()'>Character creation</p>
+    <p class="oracle-row-to-roll" onclick='rollActionAndThemeSF()'>Core - Action and Theme</p>
+    <p class="oracle-row-to-roll" onclick='rollDescriptorAndFocusSF()'>Core - Descriptor and Focus</p>
+    <p class="oracle-row-to-roll" onclick='createCreatureSF()'>Creature</p>
+    <p class="oracle-row-to-roll" onclick='createSpaceCreatureSF()'>Creature - Space</p>
+    <p class="oracle-row-to-roll" onclick='createInteriorCreatureSF()'>Creature - Interior</p>
+    <p class="oracle-row-to-roll" onclick='createLandCreatureSF()'>Creature - Land</p>
+    <p class="oracle-row-to-roll" onclick='createLiquidCreatureSF()'>Creature - Liquid</p>
+    <p class="oracle-row-to-roll" onclick='createAirCreatureSF()'>Creature - Air</p>
+    <p class="oracle-row-to-roll" onclick='createDerelictSF()'>Derelict - initial creation</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createZoneStarshipSF())'>Derelict - zone in starship</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createZoneSettlementSF())'>Derelict - zone in settlement</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Access"))'>Derelict - Zone -
+        Access</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Community"))'>Derelict - Zone
+        - Community</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Engineering"))'>Derelict -
+        Zone - Engineering</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Living"))'>Derelict - Zone -
+        Living</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Medical"))'>Derelict - Zone -
+        Medical</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Operations"))'>Derelict - Zone
+        - Operations</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Production"))'>Derelict - Zone
+        - Production</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createDerelictFeaturesByZoneSF("Research"))'>Derelict - Zone -
+        Research</p>
+    <p class="oracle-row-to-roll" onclick='createLocationSF()'>Location</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Chaotic"))'>Location - Theme
+        - Chaotic</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Fortified"))'>Location -
+        Theme - Fortified</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Haunted"))'>Location - Theme
+        - Haunted</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Infested"))'>Location - Theme
+        - Infested</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Inhabited"))'>Location -
+        Theme - Inhabited</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Ruined"))'>Location - Theme -
+        Ruined</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Mechanical"))'>Location -
+        Theme - Mechanical</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createLocationFeaturesByThemeSF("Sacred"))'>Location - Theme -
+        Sacred</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Miscellaneous.Story_Complication))'>
+        Miscellaneous - Story Complication</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Miscellaneous.Combat_Action))'>
+        Miscellaneous - Story Combat Action</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Miscellaneous.Anomaly_Effect))'>
+        Miscellaneous - Anomaly Effect</p>
+
+    <p class="oracle-row-to-roll" onclick='todoSF()'>TODO Move</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Move.Pay_the_Price))'>Move - Pay the
+        price</p>
+
+    <p class="oracle-row-to-roll" onclick='createPlanetSF()'>Planet</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Desert World"))'>Planet - Desert
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Furnace World"))'>Planet - Furnace
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Grave World"))'>Planet - Grave
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Ice World"))'>Planet - Ice
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Jovian World"))'>Planet - Jovian
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Jungle World"))'>Planet - Jungle
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Ocean World"))'>Planet - Ocean
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Rocky World"))'>Planet - Rocky
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Shattered World"))'>Planet -
+        Shattered World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Tainted World"))'>Planet - Tainted
+        World</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(createPlanetTextSfForClass("Vital World"))'>Planet - Vital
+        World</p>
+
+    <p class="oracle-row-to-roll" onclick='createPrecursorVaultSF()'>Precursor Vault</p>
+    <p class="oracle-row-to-roll" onclick='createInteriorPrecursorVaultSF()'>Precursor Vault - Interior</p>
+    <p class="oracle-row-to-roll" onclick='createSanctumPrecursorVaultSF()'>Precursor Vault - Sanctum</p>
+    <p class="oracle-row-to-roll" onclick='createSettlementSF()'>Settlement</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Space.Space_Sighting))'>Space -
+        Sighting</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Space.Stellar_Object))'>Space -
+        Stellar Object</p>
+    <p class="oracle-row-to-roll" onclick='createSectorNameSF()'>Space - Sector Name</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Space.Peril))'>Space - Peril</p>
+    <p class="oracle-row-to-roll" onclick='createStarshipSF()'>Starship</p>
+    <p class="oracle-row-to-roll" onclick='createFactionSF()'>Faction</p>
+    <p class="oracle-row-to-roll" onclick='displayInModal(rollOnOracleSF(oraclesSF.Faction.Relationships))'>Relacja
+        frakcji</p>
+</div>
+
+<div id="roll_oracles_history" class="tabcontent">
+    <button onclick="showLocalStoreHistoryI()">Pokaż historię</button>
+    <button onclick="clearLocalStoreHistoryI()">Wyczyść historię</button>
+</div>
+
+<div id="other" class="tabcontent">
+    Aby wyeksportować dane naciśnij poniższy przycisk. Następnie otwórz stronę https://homebrewery.naturalcrit.com/new i
+    skopiuj zawartość pliku do otwartego okna. Najprawdopodobniej będzie wymagana jeszcze jakaś praca.
+    <br>
+    <button onclick='download("result ", exportToHombrewery(oraclesSF));'>Pobierz dane</button>
+</div>
+
+</body>
+
+<script type="text/javascript" src="display.js"></script>
+<script type="text/javascript" src="display-starforged-pl.js"></script>
+<script type="text/javascript" src="display-starforged.js"></script>
